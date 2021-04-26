@@ -81,6 +81,7 @@ h2 {
 }
 
 .job {
+  background-color: #fffff0;
   width: calc(100% / 3 - 20px);
   height: 300px;
   display: flex;
@@ -89,9 +90,6 @@ h2 {
   border: lightseagreen 2px solid;
   border-radius: 10px;
 }
-/* .job:hover {
-  background-color: #ddd6f3;
-} */
 
 /* Footer */
 footer {
@@ -103,4 +101,75 @@ footer p {
   text-align: center;
   font-size: 12px;
   color: rgb(230, 0, 76);
+}
+
+/* Media queries */
+@media (max-width: 1140px) {
+  .job {
+    height: 250px;
+  }
+}
+
+@media (max-width: 990px) {
+  .job {
+    height: 225px;
+  }
+}
+
+@media (max-width: 860px) {
+  .job {
+    height: 180px;
+  }
+}
+
+@media (max-width: 744px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+  .container div:nth-child(2),
+  .container div:nth-child(5),
+  .container div:nth-child(8) {
+    margin: 0 0;
+  }
+  .container div:nth-child(4),
+  .container div:nth-child(5),
+  .container div:nth-child(6) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .container div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .job {
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+  .container div:nth-child(2),
+  .container div:nth-child(5),
+  .container div:nth-child(8) {
+    margin: 0 0;
+  }
+  .container div:nth-child(4),
+  .container div:nth-child(5),
+  .container div:nth-child(6) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .container div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .job {
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
