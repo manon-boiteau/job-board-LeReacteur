@@ -9,7 +9,9 @@
 
 To familiarize with the framework React.js. First project, first meeting with React.js 🤗 The difficulty was to cut the code into several components, so as to have a reusable and cleaner code.
 
-![Job board](src/assets/img/job-board.png)
+![Job board desktop](src/assets/img/job-board-desktop.png)
+![Job board tablette](src/assets/img/job-board-tablette.png)
+![Job board mobile](src/assets/img/job-board-mobile.png)
 
 ## Languages
 
