@@ -1,1 +1,106 @@
-/* Other rules */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap");
+
+/* Global rules */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+}
+
+/* Header */
+header {
+  padding: 30px;
+  border-bottom: 2px solid rgb(230, 0, 76);
+  background-color: #ddd6f3;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Main */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 50px auto;
+}
+.container div {
+  padding: 20px;
+}
+.container div:nth-child(2),
+.container div:nth-child(5),
+.container div:nth-child(8) {
+  margin: 0 20px;
+}
+.container div:nth-child(4),
+.container div:nth-child(5),
+.container div:nth-child(6) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container div:nth-child(5n) {
+  border: 1px dashed cornflowerblue;
+}
+.container div:nth-child(5n):hover {
+  background-color: cornflowerblue;
+}
+.container div:nth-child(2n + 4) {
+  border: 1px dashed greenyellow;
+}
+.container div:nth-child(2n + 4):hover {
+  background-color: greenyellow;
+}
+.container div:first-child,
+.container div:last-child {
+  border: 1px dashed tomato;
+}
+.container div:first-child:hover,
+.container div:last-child:hover {
+  background-color: tomato;
+}
+.container div:nth-child(2),
+.container div:nth-child(3),
+.container div:nth-child(7) {
+  border: 1px dashed rgb(230, 0, 76);
+}
+.container div:nth-child(2):hover,
+.container div:nth-child(3):hover,
+.container div:nth-child(7):hover {
+  background-color: rgb(230, 0, 76);
+}
+
+.job {
+  width: calc(100% / 3 - 20px);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: lightseagreen 2px solid;
+  border-radius: 10px;
+}
+/* .job:hover {
+  background-color: #ddd6f3;
+} */
+
+/* Footer */
+footer {
+  background-color: #ddd6f3;
+  padding: 20px;
+  border-top: 2px solid rgb(230, 0, 76);
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(230, 0, 76);
+}
