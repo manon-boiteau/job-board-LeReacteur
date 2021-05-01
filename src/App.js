@@ -1,7 +1,6 @@
 import "./App.css";
 import Header from "./Header";
 import Jobs from "./Jobs";
-// import Job from "./Job";
 import Footer from "./Footer";
 
 function App() {
