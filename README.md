@@ -1,6 +1,6 @@
 # JOB BOARD 💼
 
-🌤 April 2021  
+⛅️ April 2021  
 ✨ Frontend (one of my first ReactJS project 🤗)  
 🔗 Netlify - check [that](https://my-job-board-lereacteur-2021.netlify.app/)
 
